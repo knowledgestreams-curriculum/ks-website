@@ -5,6 +5,13 @@
 * License: https://bootstrapmade.com/license/
 */
 
+.curriculum-card-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+
 .student-profile-img {
      object-fit: contain;
      max-height: 260px;
