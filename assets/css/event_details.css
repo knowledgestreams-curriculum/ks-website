@@ -1,0 +1,60 @@
+.event_details {
+     width: 100%;
+     margin-top: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.event_details_curriculum {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.event_pic {
+     width: 50%;
+     padding: 20px 0px 20px 0;
+
+}
+
+.event_text {
+     text-align: justify;
+     width: 60%;
+}
+
+.event_heading {
+     text-align: center;
+}
+
+.event_heading_curriculum {
+     text-align: center;
+     margin-top: 20px;
+}
+
+.event_list {
+     width: 60%;
+}
+
+@media (max-width: 990px) {
+     /* .event_details {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     } */
+
+     .event_text,
+     .event_list {
+          width: 85%;
+     }
+
+     .event_pic {
+          width: 70%;
+     }
+
+
+}
